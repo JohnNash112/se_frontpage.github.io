@@ -17,18 +17,21 @@ html {
 	background-size: cover;
 }
 .bgimg-1 {
-	background-image: url("https://github.com/JohnNash112/se_frontpage.github.io/blob/master/images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
+	background-image: url("/images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
 	min-height: 100%;
+	image-rendering: optimizeSpeed;
 }
 
 .bgimg-2 {
-	background-image: url("https://github.com/JohnNash112/se_frontpage.github.io/blob/master/images/neonbrand-Ak5c5VTch5E-unsplash.jpg");
+	background-image: url("/images/neonbrand-Ak5c5VTch5E-unsplash.jpg");
 	min-height: 400px;
+	image-rendering: optimizeSpeed;
 }
 
 .bgimg-3 {
-	background-image: url("https://github.com/JohnNash112/se_frontpage.github.io/blob/master/images/scott-graham-OQMZwNd3ThU-unsplash.jpg");
+	background-image: url("/images/scott-graham-OQMZwNd3ThU-unsplash.jpg");
 	min-height: 400px;
+	image-rendering: optimizeSpeed;
 }
 
 .caption {
