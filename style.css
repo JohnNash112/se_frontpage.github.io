@@ -6,17 +6,15 @@ html {
 	color: #777;
 }
 
-.contactus{
+.contactus {
 	margin-top: 150px;
 }
-.about{
+.about {
 	margin-top: 150px;
 }
-.home{
+.home {
 	margin-top: 50px;
 }
-
-
 
 .bgimg-1,
 .bgimg-2,
@@ -47,18 +45,23 @@ html {
 }
 
 .navbar-dark {
-  background-color: #344562;
-  opacity: 0.6; }
+	background-color: #344562;
+	opacity: 0.6;
+}
 
 .modal-header {
-  background: #512DA8; }
-  .modal-header .modal-title {
-    color: #fffaf0; }
-  .modal-header .close {
-    color: #D1C4E9; }
+	background: #512da8;
+}
+.modal-header .modal-title {
+	color: #fffaf0;
+}
+.modal-header .close {
+	color: #d1c4e9;
+}
 
 .modal-body {
-  background: #D1C4E9; }
+	background: #d1c4e9;
+}
 
 .caption {
 	position: absolute;
@@ -85,6 +88,7 @@ h3 {
 }
 a,
 a:hover {
+	color: #777;
 	text-decoration: none;
 }
 ul {
@@ -99,17 +103,20 @@ li {
 }
 
 .row-content {
-  margin: 0px auto;
-  padding: 50px 0px;
-  border-bottom: 1px ridge;
-  min-height: 400px; }
+	margin: 0px auto;
+	padding: 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
 
-h2,h4,h5{
+h2,
+h4,
+h5 {
 	color: black;
 }
 
 address {
-  font-size: 80%;
-  margin: 0px;
-  color: #0f0f0f; }
-
+	font-size: 80%;
+	margin: 0px;
+	color: #0f0f0f;
+}
