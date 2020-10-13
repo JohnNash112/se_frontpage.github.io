@@ -16,6 +16,10 @@ html {
 	margin-top: 50px;
 }
 
+.breadcrumb a{
+	color: rgb(16, 188, 245);
+}
+
 .bgimg-1,
 .bgimg-2,
 .bgimg-3 {
@@ -45,8 +49,8 @@ html {
 }
 
 .navbar-dark {
-	background-color: #344562;
-	opacity: 0.6;
+	background-color: rgb(47, 27, 61);
+	opacity: 0.5;
 }
 
 .modal-header {
