@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Contact Us</title>
+</head>
+<body>
+	<!-- NAVBAR -->
+	<div>
+	    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+	        <div class="container">
+	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+	                <span class="navbar-toggler-icon"></span>
+
+
+	            </button>
+	            <div class="collapse navbar-collapse" id="Navbar">
+	                <ul class="navbar-nav mr-auto">
+	                    <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="./about.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><i class="material-icons" style="font-size:16px">&#xe0ba;</i> Contact</a></li>
+	                </ul>
+	                
+	            </div>
+	        </div>
+	    </nav>
+	</div>
+
+    <div class="container contactus">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">Contact Us</li>
+            </ol>
+            <div class="col-12">
+               <h3>Contact Us</h3>
+               <hr>
+            </div>
+        </div>
+
+        <div class="row row-content">
+           <div class="col-12">
+              <h2>Location Information</h2>
+           </div>
+           <div class="col-12 col-sm-4 offset-sm-1">
+                   <h4>Our Address</h4>
+                   <address style="font-size: 100%">
+		              Room No.- 15, 2nd floor<br>
+		              CSE Department<br>
+		              Tezpur University<br>
+		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope"></i>:
+                        <a href="mailto:xyz@tezu.ernet.in">xyz@tezu.ernet.in</a>
+		           </address>
+            </div>
+            <div class="col-12 col-sm-6 offset-sm-1">
+                <h5>Map of our Location</h5>
+            </div>
+            <div class="col-12 col-sm-11 offset-sm-1">
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" href="tel:+9110986474"><i class="fa fa-phone"></i>Call</a>
+                    <a role="button" class="btn btn-success" href="mailto:mehusankush@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content">
+           <div class="col-12">
+              <h2>Suggestions are invited</h2>
+           </div>
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
+                        </div>
+
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Telephone No.">
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Suggestion</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Suggestion</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+             <div class="col-12 col-md">
+            </div>
+       </div>
+
+    </div>
+
+</body>
+</html>
